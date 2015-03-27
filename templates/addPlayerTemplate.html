@@ -1,0 +1,10 @@
+<template name="addPlayerForm">
+	{{#if currentUser}}
+	<form>
+		<input type="text" name="playerName">
+		<br>
+		<input type="submit" value="Add Player">
+	</form>
+	<input type="button" class="removePlayer" value="Remove Player">
+	{{/if}}
+</template>
